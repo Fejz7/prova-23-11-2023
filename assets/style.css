@@ -79,3 +79,21 @@ ul.lista {
   background-color: rgb(0, 102, 255);
   padding: 50px;
 }
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* border-collapse sceglie come comportarsi quando due bordi
+    si affiancano */
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  min-width: 150px;
+}
+
+
+th {
+  background-color: blue;
+}
